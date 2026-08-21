@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#06101F"/>
+      <stop offset=".55" stop-color="#0A192F"/>
+      <stop offset="1" stop-color="#142642"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#E8CF9B"/>
+      <stop offset=".5" stop-color="#C8A165"/>
+      <stop offset="1" stop-color="#9C7A41"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx=".5" cy=".5" r=".5">
+      <stop stop-color="#C8A165" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#C8A165" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx=".5" cy=".5" r=".5">
+      <stop stop-color="#5B84C4" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#5B84C4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="480" fill="url(#bg)"/>
+
+  <!-- subtle grid -->
+  <g stroke="#FFFFFF" stroke-opacity=".05" stroke-width="1">
+    <path d="M0 80H1600M0 160H1600M0 240H1600M0 320H1600M0 400H1600"/>
+    <path d="M100 0V480M200 0V480M300 0V480M400 0V480M500 0V480M600 0V480M700 0V480M800 0V480M900 0V480M1000 0V480M1100 0V480M1200 0V480M1300 0V480M1400 0V480M1500 0V480"/>
+  </g>
+
+  <circle cx="1240" cy="190" r="260" fill="url(#glow1)"/>
+  <circle cx="240" cy="330" r="300" fill="url(#glow2)"/>
+
+  <!-- globe -->
+  <g transform="translate(1250 185)" stroke="url(#gold)" fill="none">
+    <circle r="128" stroke-width="3" opacity=".9"/>
+    <ellipse rx="52" ry="128" stroke-width="1.6" opacity=".55"/>
+    <ellipse rx="96" ry="128" stroke-width="1.6" opacity=".4"/>
+    <path d="M-128 0H128" stroke-width="1.6" opacity=".55"/>
+    <path d="M-112 -58H112M-112 58H112" stroke-width="1.6" opacity=".45"/>
+    <path d="M-88 -96Q0 -60 88 -96M-88 96Q0 60 88 96" stroke-width="1.6" opacity=".45"/>
+    <circle r="128" stroke-width="10" opacity=".12"/>
+  </g>
+
+  <!-- orbit accents -->
+  <g stroke="#C8A165" fill="none" opacity=".5">
+    <path d="M1080 90 Q1250 -30 1420 90" stroke-width="2" stroke-dasharray="2 10" stroke-linecap="round"/>
+    <circle cx="1080" cy="90" r="5" fill="#C8A165" stroke="none"/>
+    <circle cx="1420" cy="90" r="5" fill="#C8A165" stroke="none"/>
+  </g>
+
+  <!-- global skyline -->
+  <g fill="#04101F">
+    <rect x="40" y="270" width="70" height="210"/>
+    <rect x="120" y="230" width="54" height="250"/>
+    <rect x="184" y="300" width="66" height="180"/>
+    <rect x="262" y="200" width="46" height="280"/>
+    <rect x="318" y="255" width="72" height="225"/>
+    <rect x="400" y="170" width="38" height="310"/>
+    <rect x="448" y="235" width="64" height="245"/>
+    <rect x="522" y="290" width="58" height="190"/>
+    <rect x="590" y="215" width="48" height="265"/>
+    <rect x="648" y="265" width="76" height="215"/>
+    <rect x="734" y="185" width="42" height="295"/>
+    <rect x="786" y="245" width="62" height="235"/>
+    <rect x="858" y="305" width="56" height="175"/>
+    <rect x="924" y="225" width="44" height="255"/>
+    <rect x="978" y="275" width="68" height="205"/>
+    <rect x="1056" y="320" width="60" height="160"/>
+    <rect x="1126" y="250" width="50" height="230"/>
+    <rect x="1186" y="295" width="72" height="185"/>
+    <rect x="1268" y="340" width="58" height="140"/>
+    <rect x="1336" y="265" width="48" height="215"/>
+    <rect x="1394" y="310" width="66" height="170"/>
+    <rect x="1470" y="240" width="52" height="240"/>
+    <rect x="1532" y="300" width="60" height="180"/>
+  </g>
+
+  <!-- antenna spires -->
+  <g stroke="#04101F" stroke-width="5" stroke-linecap="round">
+    <path d="M419 170V128M285 200V164M755 185V146M1496 240V204"/>
+  </g>
+
+  <!-- golden windows -->
+  <g fill="#C8A165" opacity=".65">
+    <rect x="132" y="248" width="7" height="7"/><rect x="150" y="248" width="7" height="7"/><rect x="132" y="272" width="7" height="7"/><rect x="168" y="272" width="7" height="7"/><rect x="150" y="296" width="7" height="7"/>
+    <rect x="276" y="222" width="7" height="7"/><rect x="292" y="222" width="7" height="7"/><rect x="276" y="248" width="7" height="7"/><rect x="292" y="274" width="7" height="7"/>
+    <rect x="414" y="196" width="7" height="7"/><rect x="414" y="222" width="7" height="7"/><rect x="414" y="248" width="7" height="7"/>
+    <rect x="604" y="238" width="7" height="7"/><rect x="620" y="264" width="7" height="7"/><rect x="604" y="290" width="7" height="7"/>
+    <rect x="748" y="208" width="7" height="7"/><rect x="748" y="234" width="7" height="7"/>
+    <rect x="1140" y="272" width="7" height="7"/><rect x="1156" y="298" width="7" height="7"/>
+    <rect x="1484" y="262" width="7" height="7"/><rect x="1484" y="288" width="7" height="7"/>
+  </g>
+
+  <!-- container ship -->
+  <g transform="translate(430 350)">
+    <path d="M0 78 H520 L472 118 H36 Z" fill="#0B1D36" stroke="#1D3252" stroke-width="2"/>
+    <rect x="418" y="34" width="58" height="44" fill="#13294A"/>
+    <rect x="430" y="16" width="20" height="18" fill="#C8A165" opacity=".85"/>
+    <g>
+      <rect x="60" y="46" width="52" height="32" fill="#C8A165" opacity=".8"/>
+      <rect x="116" y="46" width="52" height="32" fill="#31517D"/>
+      <rect x="172" y="46" width="52" height="32" fill="#5B84C4" opacity=".75"/>
+      <rect x="228" y="46" width="52" height="32" fill="#C8A165" opacity=".55"/>
+      <rect x="284" y="46" width="52" height="32" fill="#31517D"/>
+      <rect x="88" y="12" width="52" height="32" fill="#31517D"/>
+      <rect x="144" y="12" width="52" height="32" fill="#C8A165" opacity=".65"/>
+      <rect x="200" y="12" width="52" height="32" fill="#5B84C4" opacity=".6"/>
+    </g>
+  </g>
+
+  <!-- water lines -->
+  <g stroke="#5B84C4" stroke-opacity=".35" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M60 452 C220 436 380 462 540 448 C700 434 860 460 1020 446"/>
+    <path d="M120 470 C300 458 480 478 660 466 C840 454 1020 476 1200 464"/>
+  </g>
+
+  <!-- connection network -->
+  <g stroke="#C8A165" stroke-opacity=".4" stroke-width="1.5" fill="none">
+    <path d="M1150 185 L980 120 L820 190 M1150 185 L1330 110 L1470 180 M1150 185 L1010 300"/>
+  </g>
+  <g fill="#E8CF9B">
+    <circle cx="980" cy="120" r="4"/>
+    <circle cx="820" cy="190" r="4"/>
+    <circle cx="1330" cy="110" r="4"/>
+    <circle cx="1470" cy="180" r="4"/>
+    <circle cx="1010" cy="300" r="4"/>
+  </g>
+
+  <!-- base line -->
+  <rect x="0" y="474" width="1600" height="6" fill="url(#gold)"/>
+</svg>
